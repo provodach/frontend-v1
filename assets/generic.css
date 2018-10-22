@@ -1,0 +1,196 @@
+/* Fonts: Jura */
+@font-face{font-family:jura;src:url(fonts/jura/jura-demibold.eot);src:url(fonts/jura/jura-demibold.eot?#iefix) format('embedded-opentype'),url(fonts/jura/jura-demibold.woff2) format('woff2'),url(fonts/jura/jura-demibold.woff) format('woff'),url(fonts/jura/jura-demibold.ttf) format('truetype'),url(fonts/jura/jura-demibold.svg#jurademibold) format('svg');font-weight:400;font-style:normal}@font-face{font-family:jura;src:url(fonts/jura/jura-light.eot);src:url(fonts/jura/jura-light.eot?#iefix) format('embedded-opentype'),url(fonts/jura/jura-light.woff2) format('woff2'),url(fonts/jura/jura-light.woff) format('woff'),url(fonts/jura/jura-light.ttf) format('truetype'),url(fonts/jura/jura-light.svg#juralight) format('svg');font-weight:300;font-style:normal}@font-face{font-family:jura;src:url(fonts/jura/jura-medium.eot);src:url(fonts/jura/jura-medium.eot?#iefix) format('embedded-opentype'),url(fonts/jura/jura-medium.woff2) format('woff2'),url(fonts/jura/jura-medium.woff) format('woff'),url(fonts/jura/jura-medium.ttf) format('truetype'),url(fonts/jura/jura-medium.svg#juramedium) format('svg');font-weight:600;font-style:normal}@font-face{font-family:jura;src:url(fonts/jura/jura-regular.eot);src:url(fonts/jura/jura-regular.eot?#iefix) format('embedded-opentype'),url(fonts/jura/jura-regular.woff2) format('woff2'),url(fonts/jura/jura-regular.woff) format('woff'),url(fonts/jura/jura-regular.ttf) format('truetype'),url(fonts/jura/jura-regular.svg#jurabook) format('svg');font-weight:400;font-style:normal}
+
+/* Fonts: Dited */
+@font-face{font-family:Ditted;src:url(fonts/dited/dited.eot);src:url(fonts/dited/dited.eot?#iefix) format('embedded-opentype'),url(fonts/dited/dited.woff2) format('woff2'),url(fonts/dited/dited.woff) format('woff'),url(fonts/dited/dited.ttf) format('truetype'),url(fonts/dited/dited.svg#ditedregular) format('svg')}
+
+
+html, body
+{
+	margin: 0; padding: 0;
+	width: 100%; height: 100%;
+	font-family: "jura", "Open Sans", Verdana, Tahoma, Arial, Sans-Serif;
+	color: #f5f5f5;
+	overflow: hidden;
+}
+
+a
+{
+	color: #f5f5f5;
+}
+
+h3
+{
+	margin-bottom: 3px;
+}
+
+#menu
+{
+	font-family: "Ditted", "jura", "Open Sans", Verdana, Tahoma, Arial, Sans-Serif;	
+	margin-bottom: -10px;
+}
+
+#menu a, #footer a
+{
+	font-size: 14pt;
+	text-decoration: none;
+}
+
+#volume-dots
+{
+	height: 5px;
+	text-align: right;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.volume-dot
+{
+	font-size: 16pt;
+	width: 12px;
+	display: inline-block;
+	text-align: center;
+	margin: 0; padding: 0;
+	cursor: pointer;
+}
+
+
+#main
+{
+	border: none;
+	width: 800px;
+	max-height: 100%;
+	/* margin: 0 auto; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform:  translate(-50%, -50%);
+	-o-transform:  translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#header-struct td, #header-struct tr
+{
+	border: none;
+	margin: 0;
+}
+
+#header-struct
+{
+	width: 100%;
+	border-spacing: 0;
+}
+
+#title
+{
+	font-size: 36pt;
+	font-family: "Ditted", "jura", "Open Sans", Verdana, Tahoma, Arial, Sans-Serif;
+	height: 30px;
+	width: 240px;
+}
+
+#menu-handler
+{
+	height: 50px;
+}
+
+
+#player
+{
+	height: 30px;
+}
+
+#content
+{
+	padding: 25px;
+	font-family: "jura", "Open Sans", Verdana, Tahoma, Arial, Sans-Serif;
+	font-size: 14pt;
+	background: rgba(2, 2, 2, 0.7);
+	box-sizing: border-box;
+}
+
+#content h2
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#content p
+{
+	text-indent: 10px;
+	margin: 0px;
+}
+
+#player-control-handler
+{
+	height: 30px; width: 30px;
+	background: rgba(28, 186, 225, 0.7);
+	cursor: pointer;
+}
+
+#player-trackinfo-handler
+{
+	background: rgba(28, 186, 225, 0.7);
+	font-family: "Ditted", "jura", "Open Sans", Verdana, Tahoma, Arial, Sans-Serif;
+	font-size: 20pt;
+	overflow-x: hidden;
+}
+
+#player-trackinfo
+{
+	text-decoration: none;
+}
+
+#player-control
+{
+	height: 25px;
+	width: 25px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#footer-links
+{
+	height: 20px;
+	background: rgba(30, 30, 30, 0.7);
+	font-size: 12pt;
+	font-family: "Ditted", "jura", "Open Sans", Verdana, Tahoma, Arial, Sans-Serif;
+	padding-bottom: 3px;
+	text-align: center;
+}
+
+#footer-links a
+{
+	text-decoration: none;
+}
+
+
+/* Track Voters */
+.trackvote
+{
+	cursor: pointer;
+	color: #f5f5f5;
+	font-family: "Ditted", "jura", "Open Sans", Verdana, Tahoma, Arial, Sans-Serif;
+	font-size: 20pt;
+	width: 30px;
+	text-align: center;
+}
+
+#vote-class
+{
+	background-size: 23px 23px !important;
+	background: rgba(27, 100, 227, 0.4) url('sprites/class.png') no-repeat center center;
+	background-position: center!important;
+}
+
+#vote-disclass
+{
+	background-size: 23px 23px !important;
+	background: rgba(186, 22, 22, 0.4) url('sprites/disclass.png') no-repeat center center;
+	background-position: center!important;
+}

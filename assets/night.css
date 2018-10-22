@@ -1,0 +1,34 @@
+html, body
+{
+	background: #020220 url(backgrounds/background-night-2.jpg) no-repeat center;
+	background-size: 100% 100%;
+	color: #f5f5f5;
+}
+
+a
+{
+	color: #f5f5f5;
+}
+
+#content
+{
+	background: rgba(2, 2, 2, 0.8);
+}
+
+#player
+{
+	background: rgba(28, 186, 225, 0.7);
+}
+
+.player-control-stalled
+{
+	background-size: 25px 25px !important;
+	background: url('sprites/play-night.png') no-repeat center;
+	background-position: center!important;
+}
+
+.player-control-playing
+{
+	background-size: 25px 25px !important;
+	background: url('sprites/pause-night.png') no-repeat center;
+}
