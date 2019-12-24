@@ -32,7 +32,6 @@ function radioInit()
 	{
 		soundManager.setup(
 		{
-			url: '//api.nyan.pw/smswf/',
 			// We'll try to use HTML5 instead of Flash
 			preferFlash: false,
 			
@@ -100,7 +99,7 @@ function radioPlay(channel)
 			allowScriptAccess: 'always',
 			volume: radioGetVolume(),
 			// 							 Fuck the cache in its dirty ass!!!!!11`1
-			url: '//radio.nyan.pw/station/' + channel + '?' + randword()
+			url: '//station.waveradio.org/' + channel + '?' + randword()
 		});
 		radioPlayer.play();
 		
@@ -227,7 +226,7 @@ function requestTrackInfo()
 
     $.ajax(
     {
-        url: '//api.nyan.pw/info/radio-track.php?mount='+currentChannel,
+        url: '//core.waveradio.org/public/current?station=provodach&brief=1',
         dataType: 'json',
         crossDomain: true
     }).done(
@@ -247,7 +246,7 @@ function processResult(csRes)
 	
 	try
 	{
-		var a = csRes["track"];
+		var a = csRes["payload"];
 	}
 	catch (e)
 	{

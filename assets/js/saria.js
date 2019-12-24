@@ -10,8 +10,8 @@ var
 	sariaSocket = null,
 	
 	sariaSettings = {
-		server               : 'api.nyan.pw',
-		port                 : 1337,
+		server               : 'airin.nay.su',
+		port                 : 443,
 		secure               : true,
 		authCode             : '',
 		userName             : '',

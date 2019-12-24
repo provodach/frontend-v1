@@ -16,15 +16,15 @@
 		<style>
 		html, body
 		{
-			background: #020220 url(//api.https.cat/graphics/provodach/web/<?php echo($content['site_mode']); ?>) no-repeat center;
+			background: #020220 url(//api.nay.su/graphics/provodach/web/<?php echo($content['site_mode']); ?>) no-repeat center;
 			background-size: cover;
 		}
 		</style>
 		
-		<script src="//static.https.cat/js/jquery.js" type="text/javascript"></script>
-		<script src="//static.https.cat/js/jquery.mousewheel.js" type="text/javascript"></script>
-		<script src="//static.https.cat/js/util.js" type="text/javascript"></script>
-		<script src="//static.https.cat/js/soundmanager2.js" type="text/javascript"></script>
+		<script src="//static.nay.su/js/jquery.js" type="text/javascript"></script>
+		<script src="//static.nay.su/js/jquery.mousewheel.js" type="text/javascript"></script>
+		<script src="//static.nay.su/js/util.js" type="text/javascript"></script>
+		<script src="//static.nay.su/js/soundmanager2.js" type="text/javascript"></script>
 		<script src="/assets/js/radio.js" type="text/javascript"></script>
 		<script src="/assets/js/trackvote.js" type="text/javascript"></script>
 		<script src="/assets/js/core.js" type="text/javascript"></script>
